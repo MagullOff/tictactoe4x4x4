@@ -5,3 +5,4 @@
 * it became a PWA with crappy icons
 ## To do:
 * move the button to a better place
+* make actual icons
