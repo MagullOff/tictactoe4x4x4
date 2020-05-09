@@ -96,7 +96,7 @@ transition: background 1s;
 }
 .reset:hover
 {
-  color: grey;
+  color: var(--second);
   cursor: pointer;
 }
 .reset
