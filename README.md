@@ -3,3 +3,4 @@
 ## New features:
 * day and night mode
 * new better icons 
+* ohh mode 
