@@ -130,3 +130,72 @@ main > div{
 .row > div ~ div{
   border-top: 3px solid var(--second);
 }
+
+
+menu > button{
+  margin: none;
+  padding: none;
+  outline: none;
+  border: none;
+
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: rgb(116, 116, 116);
+  color: white;
+  font-size: 1.3rem;
+  margin: 10px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/*ohh */
+.ohh{
+  position: relative;
+}
+.ohh > div{
+  position: absolute;
+  left: 50% !important;
+  transform: translate(-50%);
+}
+
+.ohh > div{
+  transform-style: preserve-3d;
+  transition: all ease 1600ms;
+  transition: all ease 1600ms;
+  transform-style: preserve-3d;
+  z-index: 100;
+}
+
+.ohh #p4{
+  transform: perspective(5000px) rotateX(50deg) rotateY(20deg) rotateZ(-25deg)
+  translateX(-40vw) translateY(500px) translateZ(100px) !important;
+} .ohh #p4 .spanko > div{
+  border-color: rgb(46, 46, 46) !important;
+}
+
+.ohh #p3{
+  transform: perspective(5000px) rotateX(50deg) rotateY(20deg) rotateZ(-25deg)
+  translateX(-30vw) translateY(500px) translateZ(250px) !important;
+}.ohh #p3 > div{
+  border-color: rgb(87, 87, 87) !important;
+}
+.ohh #p2{
+  transform: perspective(5000px) rotateX(50deg) rotateY(20deg) rotateZ(-25deg)
+  translateX(-20vw) translateY(500px) translateZ(400px) !important;
+}.ohh #p2 > div{
+  border-color: rgb(148, 148, 148) !important;
+}
+.ohh #p1{
+  transform: perspective(5000px) rotateX(50deg) rotateY(20deg) rotateZ(-25deg)
+  translateX(-10vw) translateY(500px) translateZ(550px) !important;
+}.ohh #p1 > div{
+  border-color: rgb(206, 206, 206) !important;
+}
+
