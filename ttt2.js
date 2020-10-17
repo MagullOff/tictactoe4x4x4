@@ -260,7 +260,7 @@ function remis()
   document.getElementById('plansze').style.opacity = 0.2;
   document.getElementById('gracz').style.opacity = 0;
 
-  document.getElementById("graczwygral").innerHTML='Remis!   <div class="reset" onclick="clearkosno()">JESZCZE RAZ?</div>' ;
+  document.getElementById("graczwygral").innerHTML='Draw!   <div class="reset" onclick="clearkosno()">ONCE AGAIN?</div>' ;
   document.getElementById('graczwygral').style.opacity = 1;
   document.getElementById('graczwygral').style.pointerEvents = "all";
 }
