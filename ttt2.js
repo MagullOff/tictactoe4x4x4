@@ -5,13 +5,13 @@ if('serviceWorker' in navigator){
 }
 
 
-var player=1;
-var bigplayer=1;
-var p2;
-var i=1,a=1;
-var s1,s2,s3,s4;
-var tab = new Array(5);
-var wynik1=0,wynik2=0;
+let player=1;
+let bigplayer=1;
+let p2;
+let i=1,a=1;
+let s1,s2,s3,s4;
+let tab = new Array(5);
+let wynik1=0,wynik2=0;
 function kosno()
 {
   document.body.innerHTML="<div >kosno to chuj, nie graj w te gre</div>";
